@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-
 import '../model/todo.dart';
 import '../constants/colors.dart';
 import '../widgets/todo_item.dart';
@@ -46,7 +45,7 @@ class _HomeState extends State<Home> {
                           bottom: 20,
                         ),
                         child: Text(
-                          'All ToDos',
+                          'All ToDo Lists',
                           style: TextStyle(
                             fontSize: 30,
                             fontWeight: FontWeight.w500,
@@ -109,6 +108,7 @@ class _HomeState extends State<Home> {
                     '+',
                     style: TextStyle(
                       fontSize: 40,
+                      color: Colors.white70,
                     ),
                   ),
                   onPressed: () {
@@ -210,7 +210,7 @@ class _HomeState extends State<Home> {
           width: 40,
           child: ClipRRect(
             borderRadius: BorderRadius.circular(20),
-            child: Image.asset('assets/images/avatar.jpeg'),
+            child: Image.asset('assets/images/Ravi.jpg'),
           ),
         ),
       ]),
